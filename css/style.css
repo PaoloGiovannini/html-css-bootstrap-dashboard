@@ -35,7 +35,7 @@ nav i{
 
 main{
     height: calc(100vh - 70px);
-    overflow-y: hidden;
+    
 }
 
 aside{
@@ -65,7 +65,7 @@ aside{
 }
 
 .ms_plus{
-    margin: 30px 0px;
+  
     font-weight:800;  
 }
 
