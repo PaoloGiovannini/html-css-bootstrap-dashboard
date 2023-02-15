@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --orange: #ff8f00;
+}
+
+nav{
+    height: 70px;
+}
+
+nav i{
+    display: none;
+    margin: 0px 10px;
+}
+
+.bi-bell-fill{
+    color: var(--orange);
+}
+
+.ms_search{
+    background-color: #e5e5e5;
+}
+
+.ms_smlogo{
+    width: 50px;
+}
+
+.ms_margin{
+    margin-right: 15px;
+}
+
