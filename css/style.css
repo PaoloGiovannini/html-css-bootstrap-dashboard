@@ -33,3 +33,30 @@ nav i{
     margin-right: 15px;
 }
 
+
+aside{
+    height: calc(100vh - 70px);
+    width: 70px;
+    background-color: #051e34
+}
+
+.ms_sidebar-top{
+    height: calc(100% - 50px);
+}
+
+.ms_sidebar-bottom{
+    height: 50px;
+}
+
+.ms_sidebar ul li{
+    list-style: none;
+}
+
+
+@media screen and (min-width: 992px){
+    aside{
+        width: 145px;
+    }
+
+    
+}
