@@ -41,7 +41,8 @@ main{
 aside{
     height: calc(100vh - 70px);
     width: 70px;
-    background-color: #051e34
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .ms_sidebar-top{
@@ -122,6 +123,18 @@ table a{
 
 .breadcrumb-item+.breadcrumb-item::before{
     color: white;
+}
+
+.ms_sidebar ul li:hover{
+    background-color: #82909a;
+}
+
+table tr:hover{
+    background-color: #f8f8f8;
+}
+
+#studenti .badge:hover {
+    background-color: rgba(22, 91, 186, 0.8);
 }
 
 @media screen and (min-width: 768px) {
