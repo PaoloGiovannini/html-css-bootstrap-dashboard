@@ -74,7 +74,7 @@
                 <section id="studenti">
                     <div class="container-fluid pt-4">
                         <div class="row text-white">
-                            <div class="col-12 col-md-4 order-md-3">
+                            <div class="col-12 col-md-4 order-md-3 ms_studente">
                                 <span>Nuovo Studente</span>
                                 <button type="button" class="btn btn-outline-light ms_plus ms-3 my-3">+</button>
                             </div>
@@ -82,13 +82,16 @@
                                 <h2 class="d-inline-block me-2">Boolean</h2>
                                 <span class="badge rounded-pill ms_pill fw-normal">Piano Blaze</span>
                                 <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
-                                    <ol class="breadcrumb ">
+                                    <ol class="breadcrumb align-items-center">
                                       <li class="breadcrumb-item">
                                         <span class="badge rounded-pill ms_pill fw-normal">3 app</span>
                                       </li>
                                       <li class="breadcrumb-item" aria-current="page">
-                                        <span class="badge rounded-circle ms_pill ">+</span>
+                                        <span class="badge rounded-circle ms_pill d-md-inline d-lg-none me-2 ">+</span>
                                       </li>
+                                      <span class="badge rounded-pill ms_pill fw-normal d-none d-lg-inline me-2">Boolean mobile app</span>
+                                      <span class="badge rounded-pill ms_pill fw-normal d-none d-lg-inline me-2">Boolean web app</span>
+                                      <span class="badge rounded-pill ms_pill fw-normal d-none d-lg-inline ">Boolean blog app</span>
                                     </ol>
                                   </nav>
                             </div>
@@ -180,13 +183,21 @@
                             </div>
 
                             <div class="card my-3">
-                              <div class="card-header">
-                                Featured4
-                              </div>
                               <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="ms_border-gray rounded border-bottom-0 ">
+                                  <img src="img/stats.jpeg" alt="" class="w-100 pt-1">
+                                  <h5 class="ps-3">Utenti attivi</h5>
+                                  <p class="ps-3 m-0">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                  <ul class="list-group">
+                                    <li class="list-group-item ms_border-top ms_border-left-right rounded-0">Gennaio: 1200</li>
+                                    <li class="list-group-item ms_border-left-right">Febbraio: 800</li>
+                                    <li class="list-group-item ms_border-left-right">Marzo: 1500</li>
+                                    <li class="list-group-item ms_border-top ms_border-left-right ">
+                                      <a href="#">Visualizza report approfondito</a>
+                                    </li>
+                                    
+                                  </ul>
+                                </div>
                               </div>
                           </div>
 

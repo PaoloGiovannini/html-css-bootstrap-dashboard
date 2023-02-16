@@ -5,7 +5,7 @@
 }
 
 :root{
-    --orange: #ff8f00;
+    --ms_orange: #ff8f00;
 }
 
 nav{
@@ -18,7 +18,7 @@ nav i{
 }
 
 .bi-bell-fill{
-    color: var(--orange);
+    color: var(--ms_orange);
 }
 
 .ms_search{
@@ -72,6 +72,32 @@ aside{
 .ms_pill{
     background-color: #165bba;
 }
+
+.ms_border-gray{
+    border: 1px solid #d2d2d2;
+}
+
+.ms_border-top{
+    border-top: 1px solid #d2d2d2;
+}
+
+.ms_border-left-right{
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.card ul li a{
+    font-size: 13px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .ms_studente{
+        text-align: center;
+    }
+}
+
 
 @media screen and (min-width: 992px){
     aside{
