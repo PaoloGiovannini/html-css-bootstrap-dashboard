@@ -76,7 +76,80 @@
                         <div class="row text-white">
                             <div class="col-12 col-md-4 order-md-3 ms_studente">
                                 <span>Nuovo Studente</span>
-                                <button type="button" class="btn btn-outline-light ms_plus ms-3 my-3">+</button>
+                                <button type="button" class="btn btn-outline-light ms_plus ms-3 my-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                  <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                  </div>
+                                  <div class="offcanvas-body">
+                                    <form class="row g-3">
+                                      <div class="col-md-6">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="nome">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="nome" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" id="nome">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="nome" class="form-label">Email</label>
+                                        <div class="input-group">
+                                          <div class="input-group-text">@</div>
+                                          <input type="email" class="form-control" id="autoSizingInputGroup">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="nome" class="form-label">Indirizzo Email</label>
+                                        <div class="input-group">
+                                          <div class="input-group-text">@</div>
+                                          <input type="email" class="form-control" id="autoSizingInputGroup">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                      </div>
+                                      <div class="col-12">
+                                        <label for="nome" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="nome">
+                                      </div>
+                                      <div class="col-md-6">
+                                        <label for="inputCity" class="form-label">Città</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                      </div>
+                                      <div class="col-md-4">
+                                        <label for="inputState" class="form-label">Stato</label>
+                                        <select id="inputState" class="form-select">
+                                          <option selected>Scegli...</option>
+                                          <option>...</option>
+                                        </select>
+                                      </div>
+                                      <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">CAP</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                      <div class="col-12">
+                                        <label for="inputGroupFile01" class="form-label">Foto</label>
+                                        <input type="file" class="form-control" id="inputGroupFile01">
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Seleziona per proseguire
+                                        </label>
+                                      </div>
+                                      <div class="ms_buttons-left">
+                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                        <button type="reset" class="btn btn-warning">Svuota</button>
+                                      </div>
+                                    </form>  
+                                  </div>
+                                </div>
                             </div>
                             <div class="col-12 col-md-4">
                                 <h2 class="d-inline-block me-2">Boolean</h2>
